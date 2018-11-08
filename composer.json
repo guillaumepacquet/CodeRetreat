@@ -1,0 +1,16 @@
+{
+    "name": "coderetreat/php",
+    "authors": [
+        {
+            "name": "guillaume",
+            "email": "guillaumep@sortify.tm"
+        }
+    ],
+    "require": {
+        "phpunit/phpunit": "^7.4"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit test/FirstTest.php",
+        "reset": "git reset HEAD --hard && git clean -f -d"
+    }
+}
